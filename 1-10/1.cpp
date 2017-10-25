@@ -2,7 +2,7 @@
 // Created by S524063 on 10/25/2017.
 //
 
-#include <vector>;
+#include <vector>
 #include <iostream>
 
 using namespace std;
@@ -22,5 +22,5 @@ int main() {
     for (int j : list) {
         sum += j;
     }
-    cout << sum;
+    cout << sum << endl;
 }
