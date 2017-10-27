@@ -16,8 +16,8 @@ int main() {
     for(long int i = 1; i < sqrt(n); i++) {
         if (n % i == 0) {
             bool prime = true;
-            for (int j = 1; j < sqrt(i); j++) {
-                if (j % i != 0) {
+            for (int j = 2; j < sqrt(i); j++) {
+                if (i % j == 0) {
                     prime = false;
                 }
             }
