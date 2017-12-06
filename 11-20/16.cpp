@@ -7,9 +7,9 @@ using namespace std;
 
 int main() {
 
-    unsigned long long int sum = 1 << 1000;
+    int sum = 0;
 
-    cout << sum << endl;
+    cout << (1<<4) << endl;
 
     return 0;
 }
